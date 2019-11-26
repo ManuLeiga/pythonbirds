@@ -17,4 +17,8 @@ if __name__ == '__main__':
     print(anny.idade)
     for filho in anny.filhos:
         print(filho.nome)
-    print(anny.filhos)
+    anny.sobrenome = 'Bispo' #add atributos
+    del anny.filhos #remove atributos
+    print(anny.__dict__)
+    print(renzo.__dict__)
+
